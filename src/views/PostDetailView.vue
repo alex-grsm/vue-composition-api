@@ -19,7 +19,7 @@
   import { useRoute, useRouter } from 'vue-router'
   
   const route = useRoute()
-  const router = useRouter()
+  const router = useRouter() 
   
   const showPostId = () => {
     alert(`The ID of this post is: ${ route.params.id }`)
